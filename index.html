@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج حجز مقاعد بالأتوبيس</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>نموذج حجز مقاعد بالأتوبيس</h1>
+        <form id="bookingForm">
+            <label for="name">اسمك:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="destination">وجهتك:</label>
+            <input type="text" id="destination" name="destination" required><br><br>
+            
+            <label for="seats">عدد المقاعد:</label>
+            <input type="number" id="seats" name="seats" required><br><br>
+            
+            <label for="discord">اسم حسابك بالديسكورد:</label>
+            <input type="text" id="discord" name="discord" required><br><br>
+            
+            <label for="company">شركة السياحة:</label>
+            <input type="text" id="company" name="company" required><br><br>
+            
+            <label for="date">تاريخ الرحلة:</label>
+            <input type="date" id="date" name="date" required><br><br>
+            
+            <button type="submit">إرسال الحجز</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
